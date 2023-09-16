@@ -1,4 +1,3 @@
-# examen_modulo4
 //***** CREACION DE LA BD EN DOCKER
 docker run --name postgres -e POSTGRES_USER=susan -e POSTGRES_PASSWORD=password -e POSTGRES_DB=postgres -p 4000:5432 -d postgres
 
